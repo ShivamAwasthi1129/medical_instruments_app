@@ -1,3 +1,4 @@
+import DealsandOffers from "@/components/DealsandOffers";
 import HeroSection from "@/components/HeroSection";
 import ProductCategory from "@/components/ProductCategory";
 import Testimonials from "@/components/Testimonials";
@@ -8,6 +9,7 @@ export default function Home() {
    {/* <h1 className="text-2xl text-center ">Medical Instruments</h1> */}
    <HeroSection/>
    <ProductCategory/>
+   <DealsandOffers/>
    <Testimonials/>
    
   </main>
